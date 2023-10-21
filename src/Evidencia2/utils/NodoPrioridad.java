@@ -4,11 +4,11 @@ import java.util.Comparator;
 
 public class NodoPrioridad implements Comparator<NodoPrioridad> {
     public Grafo.Vertice vertice;
-    int distancia;
+    double distancia;
 
     public NodoPrioridad() {}
 
-    public NodoPrioridad(Grafo.Vertice vertice, int distancia) {
+    public NodoPrioridad(Grafo.Vertice vertice, double distancia) {
         this.vertice = vertice;
         this.distancia = distancia;
     }
